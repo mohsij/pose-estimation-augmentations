@@ -6,10 +6,10 @@ Augmentations used by team TangoUnchained in the Satellite Pose Estimation Compe
 - Update the function `build_augmentation` in `detectron2/detectron2/data/detection_utils`
 e.g you can add
 ```
-    augmentation.extend([
-        T.RandomRotation([0,45]),
-        T.RandomTranslation([-100,100], [-100,100]),
-   	)]
+augmentation.extend([
+    T.RandomRotation([0,45]),
+    T.RandomTranslation([-100,100], [-100,100]),
+)]
 ```
 
 ## Citation
