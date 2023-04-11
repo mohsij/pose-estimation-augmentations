@@ -1,5 +1,23 @@
-# pose-estimation-augmentations
-Augmentations used by team TangoUnchained in the Satellite Pose Estimation Competition 2021
+# Augmentations by Team TangoUnchained
+
+## Contents
+This repo contains code for the following augmentations used by team TangoUnchained in the Satellite Pose Estimation Competition 2021.
+Some of these augmentations were effective in producing the final model and are mentioned in the competition results paper cited below
+
+Objection Detection augmentations:
+```
+RandomTranslation
+RandomNoise
+RandomStars
+RandomHaze
+RandomFlares
+RandomStreaks
+RandomBloom
+RandomErasing
+```
+
+Landmark Regression augmentations:
+(Will be uploaded soon)
 
 ## Usage
 - Merge code in `object_detection` directory with detectron2 repo (https://github.com/facebookresearch/detectron2)
